@@ -1,1 +1,1 @@
-web: dagit --port $PORT --host 0.0.0.0 --log-level debug
+web: uvicorn my_first_dagster_app:repository --reload
