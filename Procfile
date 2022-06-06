@@ -1,1 +1,0 @@
-web: uvicorn my_first_dagster_app:repository --reload
