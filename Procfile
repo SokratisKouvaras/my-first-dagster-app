@@ -1,1 +1,1 @@
-web: dagit --port $PORT --host 0.0.0.0
+web: dagit --port $PORT --host 0.0.0.0 --log-level debug
