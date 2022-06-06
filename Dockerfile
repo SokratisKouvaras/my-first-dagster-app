@@ -16,4 +16,4 @@ WORKDIR /opt/dagster/app
 
 EXPOSE 3000
 
-ENTRYPOINT ["dagit", "-h", "0.0.0.0", "-p", "3000"]
+ENTRYPOINT ["python","dagit", "-h", "0.0.0.0", "-p", "3000"]
