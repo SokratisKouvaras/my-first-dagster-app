@@ -1,16 +1,15 @@
 # my_first_dagster_app
 
-Welcome to your new Dagster repository.
+This is an example repository containing a simple dagster app with a Dockerfile configured to build an image for Heroku.
 
 ### Contents
 
 | Name                     | Description                                                                       |
 | ------------------------ | --------------------------------------------------------------------------------- |
 | `README.md`              | A description and guide for this code repository                                  |
-| `setup.py`               | A build script with Python package dependencies for this code repository          |
+| `Dockerfile`             | A Dockerfile script configured to build the dagster application for Heroku        |
 | `workspace.yaml`         | A file that specifies the location of the user code for Dagit and the Dagster CLI |
-| `my_first_dagster_app/`       | A Python directory that contains code for your Dagster repository                 |
-| `my_first_dagster_app_tests/` | A Python directory that contains tests for `my_first_dagster_app`                      |
+| `my_first_dagster_app/`  | A Python directory that contains code for your Dagster repository                 |
 
 ## Getting up and running
 
