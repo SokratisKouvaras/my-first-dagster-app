@@ -14,6 +14,4 @@ ENV DAGSTER_HOME=/opt/dagster/dagster_home/
 
 WORKDIR /opt/dagster/app
 
-EXPOSE 3000
-
-ENTRYPOINT ["dagit", "-h", "0.0.0.0", "-p", "3000"]
+CMD dagit -h 0.0.0.0 -p $PORT
